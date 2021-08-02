@@ -1,0 +1,359 @@
+body{
+    width: 100vw;
+
+}
+
+.navigation{
+    display: flex;
+    padding-bottom: 2.5vw;
+    position: sticky;
+    top: 0px;
+    z-index: 12;
+    opacity: 90%;
+    background-color: rgb(219, 170, 106);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.3vw;
+}
+/* .logo img{
+    width: 12vw;
+    margin-left: 5vw;
+    height:auto;
+} */
+.Ngo{
+    text-decoration: none;
+    color: rgb(31, 224, 238);
+    font-weight: 800;
+    background-color: black;
+    padding: 4px;
+    border: solid 2px;
+    border-radius: 7px;
+}
+
+
+
+.mid{
+    margin-top: 10px;
+}
+.mid ul{
+    display: flex;
+    position: absolute;
+    right: 2vw;
+    /* top: 3vh; */
+
+    
+}
+
+.mid > ul > li{
+    margin:  1vw;
+    padding: 1.4vw;
+    list-style: none;
+    /* background-color: #dab17d; */
+    border-radius: 5px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.7vw;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a:hover{
+    color: rgb(218, 218, 218);
+}
+
+
+.quote{
+    padding: 10px 0px;
+    background-color: aqua;
+    font-size: 1.2vh;
+    font-weight: 700;
+    color: red;
+}
+.ptag{
+    margin-top: 1vh;
+}
+#myCarousel{
+    height:max-content;
+    margin-top: -8px;
+}
+#myCarousel img{
+   height:100%;
+    width: 100%;
+}
+
+
+
+.box{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    border: solid rgb(218, 218, 218);
+    height: 21vw;
+    width: 30vw;
+}
+.box img{
+    width: 29vw;
+    height: 20vw;
+    overflow: hidden;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+    border-bottom: solid rgb(67, 180, 255) 2px;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    overflow:hidden;
+    padding: 12px 10vw;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-top: none;
+    background-color:rgb(227, 237, 255);
+  }
+
+.tabcontent > img{
+    width: 80vw;
+    
+}
+
+.dnbtn{
+    margin-top: 0.5vh;
+    margin-left: 12vw;
+    display: inline-block;
+}
+
+.dnbtn button{
+    background-color: rgb(15, 242, 250);
+    color: rgb(114, 91, 91);
+    padding: 1vw 2vw;
+    font-weight: 600;
+    border: transparent;
+    border-radius: 5px;
+
+}
+
+
+.conhead{
+    width: 70%;
+    margin:0px auto;
+}
+.contacti{
+    text-align: center;
+    
+}
+
+.conbox1,.conbox2,.conbox3,.conbox4{
+    width:50vw;
+    height: 15vh;
+    margin: 0px auto;
+    margin-top: 2vh;
+    background-color: #90dcf348;
+    color: black;
+    padding-top: 2vh;
+}
+
+.conbox1,.conbox2,.conbox3,.conbox4 a{
+    font-weight: 600;
+
+}
+
+.contactinf h4{
+    font-weight: 600;
+    color: rgb(66, 18, 18);
+}
+
+.contacti{
+    margin-bottom:5vw ;
+}
+
+
+
+.last{
+    display: flex;
+    padding-bottom: 10vw;
+    margin: 0PX auto;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.onf,.sef,.thf,.detailspf{
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 5vw;
+    
+}
+
+
+ul{
+
+    list-style: none;    
+}
+
+.socialf{
+    display: flex;
+    position: relative;
+    left: 6vw;
+}
+.socialf li{
+    text-align: center;
+    margin: .2vw .9vw ;
+    
+}
+
+.contactf li h3{
+    font-size: 3vw;
+    color: rgb(0, 255, 200);
+    font-weight: 800;
+}
+
+.contactf li a{
+    font-size: 2.1vw;
+    font-weight: 800;
+}
+
+.contactfm{
+    padding-top: 2vw;
+
+}
+
+
+.copyr{
+    background-color: black;
+    color: white;
+    font-size: 1.9vw;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-top: solid grey 1px;
+}
+
+
+
+
+@media (min-width:1100px){
+    .contacti a{
+        text-decoration: none;
+    }
+    .contacti{
+        width: 100%;
+        padding-bottom: 880px;
+    }
+    
+    .contactinf{
+        width: 40%;
+        text-align: center;
+        float: left;
+        margin-left: 7%;
+        /* display: inline-block; */
+    }
+    
+    .conth {
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        
+    }
+    
+    .contc{
+        cursor:default;
+        color: rgb(160, 158, 158);
+        width: 70%;
+        font-size: 24px;
+    }
+    
+    .condet{
+        display:inline-block;
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    .conbox1,.conbox2,.conbox3,.conbox4{
+    
+        /* position: relative; */
+        float: left;
+        width: 45%;
+        height: calc(300px - 30px);
+        background:rgb(255, 255, 255) ;
+        margin: 2%;
+        box-sizing: border-box;
+        border: solid rgb(202, 200, 200) 3px;
+        /* z-index: 12; */
+        border-radius: 12px;
+    
+    }
+    
+    .condet i{
+        font-size: 32px;
+        padding: 10px;
+        color: white;
+        position: relative;
+        top: 30px;
+        border-radius: 400px;
+        background: #0469eb;
+    }
+    
+    .condet h4{
+        position: relative;
+        top: 30px;
+        font-size: 20px;
+    }
+    
+    .condet a{
+        position:relative;
+        top: 40px;
+        font-size: 20px;
+        word-wrap: break-word;
+        text-align: center;
+        color: rgb(189, 187, 187);
+        text-decoration: none;
+    }
+    
+    .Enquire{
+        text-align: center;
+        width: 40%;
+        float: right;
+        margin-right: 7%;
+        background: #fbfbfb;
+        padding-right:28px;
+    }  
+    .dv,.dvt,.dvto{
+        padding: 10px;
+    }
+    
+   
+    
+}
