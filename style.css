@@ -215,7 +215,7 @@ li a:hover{
 .last{
     display: flex;
     padding-bottom: 10vw;
-    margin: 0PX auto;
+    margin-left:-4vw ;
     background-color: black;
     color: white;
     font-size: 2vw;
@@ -224,6 +224,12 @@ li a:hover{
 
 .onf,.sef,.thf,.detailspf{
     margin: 0px auto;
+    text-align: center;
+    padding-top: 5vw;
+    
+}
+.thf{
+    margin-left: -2vw;
     text-align: center;
     padding-top: 5vw;
     
